@@ -1,0 +1,29 @@
+﻿<Window x:Class="SfDatePicker_Template.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SfDatePicker_Template"
+        mc:Ignorable="d"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:sfshared="clr-namespace:Syncfusion.Windows.Controls;assembly=Syncfusion.SfShared.Wpf"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="sfshared:LoopingSelectorItem" x:Key="ModifiedSelectorItemStyle" BasedOn="{StaticResource LoopingSelectorItemStyle}">
+            <Setter Property="AlternativeBackground" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style TargetType="sfshared:LoopingSelector" x:Key="ModifiedSelectorStyle" BasedOn="{StaticResource LoopingSelectorStyle}">
+            <Setter Property="ItemContainerStyle" Value="{StaticResource ModifiedSelectorItemStyle}"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <syncfusion:SfDatePicker Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" AccentBrush="Gray">
+            <syncfusion:SfDatePicker.SelectorStyle>
+                <Style TargetType="syncfusion:SfDateSelector">
+                    <Setter Property="SelectorStyle" Value="{StaticResource ModifiedSelectorStyle}"/>
+                </Style>
+            </syncfusion:SfDatePicker.SelectorStyle>
+        </syncfusion:SfDatePicker>
+    </Grid>
+</Window>
