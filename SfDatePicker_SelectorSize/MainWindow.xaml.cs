@@ -30,7 +30,6 @@ namespace SfDatePicker_SelectorSize
         {
             if(this.ActualHeight != 0)
             {
-                TimeSelector.Height = this.ActualHeight;
                 DateSelector.Height = this.ActualHeight;
             }
         }
