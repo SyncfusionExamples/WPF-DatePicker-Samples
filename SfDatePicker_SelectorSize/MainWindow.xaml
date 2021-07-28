@@ -10,11 +10,6 @@
         xmlns:sfshared="clr-namespace:Syncfusion.Windows.Controls;assembly=Syncfusion.SfShared.Wpf"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
         <syncfusion:SfDateSelector x:Name="DateSelector"                                                                     
                                     AccentBrush="Black" 
                                     Background="Transparent"
