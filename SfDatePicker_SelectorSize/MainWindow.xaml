@@ -5,30 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SfDatePicker_SelectorSize"
         xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="SfDatePicker_SelectorSize.MainWindow"
-        mc:Ignorable="d" xmlns:sfshared="clr-namespace:Syncfusion.Windows.Controls;assembly=Syncfusion.SfShared.Wpf"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        xmlns:sfshared="clr-namespace:Syncfusion.Windows.Controls;assembly=Syncfusion.SfShared.Wpf"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <syncfusion:SfTimeSelector x:Name="TimeSelector"                                                                     
-                                       AccentBrush="Black"
-                                       Background="Transparent"
-                                       BorderBrush="Transparent"
-                                       BorderThickness="2" ShowCancelButton="False"
-                                       ShowDoneButton="False"
-                                       Header=""  >
-        </syncfusion:SfTimeSelector>
+        <syncfusion:SfDateSelector x:Name="DateSelector"                                                                     
+                                    AccentBrush="Black" 
+                                    Background="Transparent"
+                                    Header="" 
+                                    BorderBrush="Transparent"
+                                    BorderThickness="2" 
+                                    ShowCancelButton="False"
+                                    ShowDoneButton="False" />
 
-        <syncfusion:SfDateSelector x:Name="DateSelector"
-                                       Grid.Column="1"                                       
-                                       AccentBrush="Black"
-                                       Background="Transparent" Header=""
-                                       BorderBrush="Transparent" FormatString="yyyy-MMM-dd"
-                                       BorderThickness="2"   
-                                       ShowCancelButton="False"
-                                       ShowDoneButton="False">
-        </syncfusion:SfDateSelector>
     </Grid>
 </Window>
