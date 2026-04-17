@@ -1,6 +1,6 @@
 # WPF DatePicker Samples
 
-Repository contains various WPF DatePicker (SfDatePicker) samples.
+Repository contains various WPF DatePicker (SfDatePicker) samples that demonstrate keyboard navigation, selector sizing, and selector item styling customization.
 
 1. [How to change the date using up or down navigation keys in WPF DatePicker (SfDatePicker)?](https://www.syncfusion.com/kb/9345/how-to-change-the-date-using-up-down-navigation-keys-in-sfdatepicker) - [Demo](https://github.com/SyncfusionExamples/WPF-DatePicker-Samples/tree/main/SfDatePicker_ArrowKeySample)
 2. [How to display more looping items in the DateSelector and TimeSelector?](https://www.syncfusion.com/kb/8758/how-to-display-more-looping-items-in-the-dateselector-and-timeselector) - [Demo](https://github.com/SyncfusionExamples/WPF-DatePicker-Samples/tree/main/SfDatePicker_SelectorSize)
