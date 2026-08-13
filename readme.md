@@ -50,3 +50,31 @@ These samples are ideal references for developers who want to customize the beha
 1. [How to change the date using up or down navigation keys in WPF DatePicker (SfDatePicker)?](https://www.syncfusion.com/kb/9345/how-to-change-the-date-using-up-down-navigation-keys-in-sfdatepicker) - [Demo](https://github.com/SyncfusionExamples/WPF-DatePicker-Samples/tree/main/SfDatePicker_ArrowKeySample)
 2. [How to display more looping items in the DateSelector and TimeSelector?](https://www.syncfusion.com/kb/8758/how-to-display-more-looping-items-in-the-dateselector-and-timeselector) - [Demo](https://github.com/SyncfusionExamples/WPF-DatePicker-Samples/tree/main/SfDatePicker_SelectorSize)
 3. [How to change the background color for LoopingSelectorItem in WPF DatePicker (SfDatePicker)?](https://www.syncfusion.com/kb/8228/how-to-change-the-background-color-for-loopingselectoritem-in-sfdatepicker) - [Demo](https://github.com/SyncfusionExamples/WPF-DatePicker-Samples/tree/main/SfDatePicker_Template)
+
+## Requirements to run the sample
+
+Refer to the following link for more details - [System Requirements](https://help.syncfusion.com/wpf/system-requirements)
+
+## How to run the sample
+
+1. Clone the sample and open it in Visual Studio.
+
+   *Note: If you download the sample using the "Download ZIP" option, right-click it, select Properties, and then select Unblock.*
+
+2. Register your license key in the Program.cs file as demonstrated in the following code.
+
+    public partial class App : Application
+    {
+      //Register Syncfusion license
+			Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
+    }
+		
+	Refer to this [link](https://help.syncfusion.com/wpf/licensing/overview) for more details.
+
+3. Clean and build the application.
+
+4. Run the application.
+
+## License
+
+Syncfusion has no liability for any damage or consequence that may arise by using or viewing the samples. The samples are for demonstrative purposes, and if you choose to use or access the samples, you agree to not hold Syncfusion liable, in any form, for any damage that is related to use, for accessing, or viewing the samples. By accessing, viewing, or seeing the samples, you acknowledge and agree Syncfusion’s samples will not allow you seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize, or otherwise do anything with Syncfusion’s samples. 
